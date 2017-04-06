@@ -1,0 +1,32 @@
+body {
+padding-top: 20px;
+padding-bottom: 40px;
+background-color: #FFF;
+}
+.container {
+background-color: #FFF;
+font-size: 14pt;
+}
+.navbar-inner .container {width:960px;}
+
+.rounded {
+    border: 0px solid #999;
+    padding-top: 20px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+.center {
+text-align: center;
+}
+
+.codehilite {
+padding-bottom: 30px;
+
+}
+
+.postbody {
+padding-top: 30px;
+padding-bottom: 30px;
+}

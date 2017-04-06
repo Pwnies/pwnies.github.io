@@ -1,0 +1,17 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+exclude: ["deploy.sh", "LICENSE.md"]
+
+# Setup
+title:            Pwnies blog
+description:      'A blog about hacking and CTFs'
+url:              http://pwnies.dk
+baseurl:          /
+
+paginate:         5

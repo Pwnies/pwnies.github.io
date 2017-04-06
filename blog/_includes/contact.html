@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% load markup %}
+
+{% block head_extra %}
+    <title>pwnies.dk</title>
+{% endblock %}
+
+{% block content %}
+	Så er det tid til endnu en pwnies intro-workshop!
+	<br><br>
+	<b>Tid</b>: kl 10-17, 11. - 15. november 2013 <br>
+	<b>Sted</b>: Lokale 1-0-04 (længst til højre på øvelsesgangen), DIKU<br>
+	<b>Program</b>: <br>
+	<ul>
+	<li>Mandag: Shellcode og x86 assembly</li>
+	<li>Tirsdag: Reverse engineering og debugging</li>
+	<li>Onsdag: Buffer overflow exploits</li>
+	<li>Torsdag: Netværks-baserede exploits</li>
+	<li>Fredag: Videregående exploits (format string exploits, return-oriented programming)</li>
+	</ul>
+	Læg mærke til at dagene bygger oven på hinanden, så især de 2 første
+	dage er vigtige for at kunne arbejde med exploits onsdag-fredag. Det
+	vil dog være muligt at få hjælp til at indhente det forsømte hvis man misser en
+	dag eller to.
+	<br><br>
+	Vi starter fra bunden om mandagen, og gennemgår hvordan en moderne PC
+	virker, samt det sprog den snakker, som hedder x86, og lærer at skrive
+	shellcode - små stykker kode som der kan indsættes i andre programmer, og som
+	kan f. eks. starte en shell eller skrive til en fil. De næste dage
+	gennemgår vi hvordan man tager (linux) programmer og ser hvad de gør, og
+	forskellige typer sikkerhedshuller de kan have. 
+	<br>
+	<br>
+	Dag 1: 
+	<br>
+	<ul>
+	<li><a href="static/files/workshop/handout.zip">handout.zip</a></li>
+	<li><a href="static/files/workshop/runassembler">runassembler</a></li>
+	</ul>
+	<br>
+	Dag 2: 
+	<br>
+	<ul>
+	<li><a href="static/files/workshop/handout_day2.zip">handout.zip</a></li>
+	</ul>
+	<br>
+	Dag 3: 
+	<br>
+	<ul>
+	<li><a href="static/files/workshop/dag3.zip">dag3.zip</a></li>
+	</ul>
+	<br>
+	Dag 4: 
+	<br>
+	<ul>
+	<li><a href="static/files/workshop/dag4.zip">dag4.zip</a></li>
+	</ul>
+	<br>
+	Dag 5: 
+	<br>
+	<ul>
+	<li><a href="static/files/workshop/dag5.zip">dag5.zip</a></li>
+	</ul>
+	<br>
+	Ekstra læsestof og andre ressourcer:
+	<ul>
+<li><a href="http://download.intel.com/products/processor/manual/325383.pdf">Intel x86 manual</a></li>
+<li><a href="http://insecure.org/stf/smashstack.html">Smashing the stack for fun and profit</a></li>
+<li><a href="http://treasure.pwnies.dk">pwnies treasure hunt</a></li>
+<li>IRC: #zomg_pwnies @ freenode.net</li>
+	</ul>
+	<br>
+	<br>
+        <div class="center">
+            <img src="static/img/workshop.png" />
+        </div>
+{% endblock %}
