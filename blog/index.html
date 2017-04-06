@@ -8,8 +8,7 @@ title: Home
   <div class="post">
     <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <span class="meta"> Posted by {{ post.author }} on {{ post.date | date_to_long_string }}</span>
-    <div class="tags"> TAGS HERE </div>
-    {{ post.excerpt }}
+    {{ post.content }}
   </div>
   {% endfor %}
 </div>
