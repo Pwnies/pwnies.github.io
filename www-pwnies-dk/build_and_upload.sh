@@ -1,7 +1,7 @@
 #!/bin/sh
 SCRIPT=$(readlink -f $0)
 SCRIPTPATH=`dirname $SCRIPT`
-URL=gs://www.pwnies.dk
+URL=gs://storage.pwnies.dk
 
 . ./build-docker.sh
 

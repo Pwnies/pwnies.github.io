@@ -1,7 +1,11 @@
 <div class='navbar navbar-fixed-top'>
   <div class='navbar-inner' style="height: auto;">
     <ul class="nav">
-      <li class="active"><a href="/">Blog</a></li>
+      {% for link in site.data.navigation  %}
+      <li class="{% if page.url == link.url %}active{% endif %}">
+          <a href="{{ link.url }}">{{ link.title }}</a>
+      </li>
+      {% endfor %}
       <li><a href="http://github.com/pwnies/pwntools">pwntools</a></li>
     </ul>
   </div>

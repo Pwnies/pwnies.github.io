@@ -15,3 +15,5 @@ url:              http://pwnies.dk
 baseurl:          /
 
 paginate:         5
+paginate_path: "/blog/page:num/"
+
