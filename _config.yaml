@@ -11,7 +11,9 @@ exclude: ["deploy.sh", "LICENSE.md"]
 # Setup
 title:            Pwnies blog
 description:      'A blog about hacking and CTFs'
-url:              http://pwnies.dk
+domain: pwnies.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://pwnies.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+  #url:              http://pwnies.dk
 baseurl:          /
 
 paginate:         5
